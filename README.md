@@ -46,7 +46,7 @@
 
             if (PAN.Text.Length != 10)
             {
-                MessageDialog msg1 = new MessageDialog(" invalid PAN");
+                MessageDialog msg1 = new MessageDialog(" enter valid PAN");
                 await msg1.ShowAsync();
             }
             for (int i = 0; i < 10; i++)
